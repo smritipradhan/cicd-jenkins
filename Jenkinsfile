@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-        }
+        },
         stage('Example') {
             steps {
                 sh 'npm install'
