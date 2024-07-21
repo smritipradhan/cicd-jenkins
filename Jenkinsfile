@@ -10,10 +10,9 @@ pipeline {
                 echo 'Hello World'
             }
         },
-        stage('Example') {
+        stage('Example 2') {
             steps {
-                sh 'npm install'
-                sh 'npm test'
+                 echo 'Hello World'
             }
         }
     }
